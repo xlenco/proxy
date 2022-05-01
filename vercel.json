@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "https://www.solitude.eu.org",
+            "headers": {
+                "cache-control": "ms-maxage=1000"
+            }
+        }
+    ]
+  }
