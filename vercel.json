@@ -3,7 +3,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://www.pixiv.net",
+            "dest": "https://i.pximg.net",
             "headers": {
                 "cache-control": "ms-maxage=1000"
             }
